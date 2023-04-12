@@ -1,0 +1,1351 @@
+@font-face {
+    font-family: 'avenirnext-bold';
+    src: url('./fonts/avenirnextcyr-bold-webfont.woff2') format('woff2'),
+         url('./fonts/avenirnextcyr-bold-webfont.woff') format('woff');
+    font-weight: 900;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'avenirnext-medium';
+    src: url('./fonts/avenirnextcyr-medium-webfont.woff2') format('woff2'),
+         url('./fonts/avenirnextcyr-medium-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+body {
+    background-color: #ededf0;
+    box-shadow: 0 3px 6.7px 3.5px #d2d2d5;
+    margin-left: auto;
+    margin-right: auto;
+    width: 960px;
+}
+
+/* Header */
+
+header {
+    background-color: #6a7b8b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.header-logo {
+    height: 36.5px;
+    padding: 9px 0 4px 27px;
+    width: 104px;
+}
+
+nav ul {
+    display: flex;
+    padding-right: 45px;
+}
+
+nav li {
+    font: 10px 'Archivo', sans-serif;
+    letter-spacing: 0.65px;
+    list-style-type: none;
+    padding: 0 5px 0 15px;
+}
+
+a:link,
+a:visited,
+a:hover {
+    color: #fff;
+    text-decoration: none;
+}
+
+/* Homepage */
+
+main {
+    background-color: #f5f5f5;
+    font-family: 'avenirnext-bold';
+}
+
+/* Homepage logo */
+
+.logo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.homepage-logo {
+    height: 137px;
+    padding: 1.5px 0 15px 0;
+    width: 139px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Homepage photo */
+
+.homepage-photo {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: -8.5%;
+}
+
+.homepage-photo img {
+    height: 530px;
+    width: 831px;
+}
+
+.homepage-text-wrapper {
+    color: #fff;
+    font-size: 12.8px;
+    letter-spacing: 0.6px;
+    text-shadow: 0 2.8px 5px #6c6867;
+    position: relative;
+    top: 24.5px;
+    left: 276.5px;
+}
+
+/* Homepage choices */
+
+.homepage-choices-headings {
+    background-color: #f5f5f5;
+    padding: 52px 0 55px 0;
+}
+
+.homepage-h2-heading {
+    color: #5c5b5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 25.5px;
+    letter-spacing: 0.6px;
+    margin: 4px 0 1px 0;
+    text-shadow: 0.3px 0.3px #6f6b69;
+}
+
+.homepage-choices {
+    display: flex;
+    justify-content: center;
+    padding-left: 13px;
+}
+
+.choice {
+    background-color: #bbc2c8;
+    box-shadow: 0 1.5px 2.4px 0.25px #7c7c7c;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 278px;
+    margin: 0 20px 40px 12px;
+    width: 256px;
+}
+
+.choice img {
+    height: 80px;
+    padding: 38px 0 6px 0;
+    width: 80px;
+}
+
+.choice-heading {
+    font-size: 15.7px;
+    margin: 8px 0 10px 0;
+    text-shadow: 0px 1px 3px #5c5959;
+}
+
+.choice-text {
+    font: 9.7px/14px 'avenirnext-bold';
+    letter-spacing: 0.3px;
+    text-align: center;
+}
+
+/* Homepage button */
+
+.homepage-button-container {
+    display: flex;
+    justify-content: center;
+    padding: 22px 0 62.5px 0;
+}
+
+.button {
+    background: #6a7b8b;
+    border-radius: 6px;
+    border: 1px #6a7b8b;
+    box-shadow: 0.6px 1.7px 2.42px 0.25px #656464;
+    color: #fff;
+    display: block;
+    font: 17.5px 'avenirnext-bold';
+    height: 50px;
+    width: 221px;
+}
+
+/* Homepage cafe programme */
+
+.homepage-cafe-programme {
+    padding: 45.5px 0 23.5px 0;
+}
+
+.programme-heading-wrapper {
+    display: flex;
+    position: relative;
+    left: 95px;
+}
+
+.programme-heading-icon {
+    height: 72px;
+    width: 72px;
+}
+
+.programme-heading {
+    color: #5c5b5b;
+    font-size: 17.3px;
+    position: relative;
+    left: 24.5px;
+    top: 21px;
+}
+
+.programme-container {
+    color: #5c5b5b;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around; 
+    font: 17.2px/24px 'avenirnext-medium';
+    padding: 33px 0 0 0;
+    text-align: center;
+}
+
+.programme-text-wrapper1 {
+    padding: 0 0 0 40px;
+}
+
+.programme-text-wrapper2 {
+    padding: 0 5px 0 0;
+}
+
+.programme-text {
+    padding-bottom: 30px;
+}
+
+.strong-text {
+    text-shadow: 0.25px 0.5px #6f6b69;
+}
+
+/* Homepage texts */
+
+.homepage-events-text {
+    color: #5c5b5b;
+    font: 17.1px 'avenirnext-medium';
+    letter-spacing: 0.1px;
+    text-align: center;
+}
+
+.homepage-contact-text {
+    color: #5c5b5b;
+    font: 21px/29.5px 'avenirnext-medium';
+    letter-spacing: 0.2px;
+    margin-bottom: 0;
+    padding: 39px 0 50px 0;
+    text-align: center;
+    text-shadow: 0.2px 0.25px #6f6b69;
+}
+
+/* About page */
+
+.about-logo {
+    height: 137px;
+    padding: 12px 0 0 0;
+    width: 138px;
+}
+
+/* About section 1 */
+
+.about-section {
+    color: #5c5b5b;
+    display: flex;
+    justify-content: space-around;
+    padding: 0 13px 62px 11px;
+}
+
+.about-container1 {
+    align-self: center;
+}
+
+.about-container1-heading {
+    font: normal 26px/36.7px 'avenirnext-medium';
+    letter-spacing: 0.3px;
+    margin-left: -7.3px;
+    text-shadow: 0.2px 0.25px #6f6b69;
+}
+
+.about-container1-text {
+    font: 15.5px/21.9px 'avenirnext-medium';
+    letter-spacing: 0.2px;
+    margin-left: -7.3px;
+    padding: 10px 0 15px 0;
+}
+
+.about-container1-img {
+    height: 504px;
+    padding: 13px 0 5px 2px;
+    width: 337px;
+}
+
+/* About section 2 */
+
+.about-container2 {
+    padding: 0 15px 16.5px 0;
+}
+
+.about-container2-heading {
+    font: normal 26px/36px 'avenirnext-medium';
+    letter-spacing: 0.4px;
+    text-shadow: 0.2px 0.25px #6f6b69;
+    padding: 0 0 11px 5px;
+}
+
+.about-container2-text {
+    font: 15.5px/21.9px 'avenirnext-medium';
+    letter-spacing: 0.2px;
+    padding: 10px 0 15px 5px;
+}
+
+.about-container2-img {
+    height: 409px;
+    padding: 20px 0 34px 7px;
+    width: 356px;
+}
+
+/* Contact page */
+
+.contact-logo {
+    height: 138px;
+    padding: 9px 0 4.5px 0;
+    width: 139px;
+}
+
+.contact-heading {
+    color: #5c5b5b;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font: normal 26px 'avenirnext-medium';
+    letter-spacing: 0.4px;
+    padding-left: 5px;
+    text-shadow: 0.1px 0.2px #6f6b69;
+}
+
+.contact-address {
+    color: #5c5b5b;
+    font: normal 17px/24px 'avenirnext-medium';
+    letter-spacing: 0.2px;
+    padding: 24px 40px 0 210.5px;
+    text-shadow: 0.2px 0.2px 0.3px #6f6b69;
+}
+
+address a:link {
+    color: #5c5b5b;
+}
+
+.contact-map {
+    height: 405px;
+    padding: 56.5px 0 41.5px 210.5px;
+    width: 540px;
+}
+
+/* Footer */ 
+
+footer {
+    background-color: #6a7b8b;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.footer-logo {
+    height: 52px;
+    padding: 22.5px 0 20px 34px;
+    width: 36px;
+}
+
+.footer-text {
+    font: 550 9.7px 'avenirnext-medium';
+    letter-spacing: 0.4px;
+    padding-bottom: 10px;
+    position: relative;
+    left: 121px;
+    bottom: 7.5px;
+}
+
+.socialmedia-icons-wrapper {
+    position: relative;
+    top: 14px;
+    left: -243px;
+}
+
+.socialmedia-icon {
+    height: 19.3px;
+    padding: 14px 0 9px 22px;
+    width: 19px;
+}
+
+@media screen and (max-width: 576px) {
+    body {
+        width: 388px;
+    }
+
+    /* Header */
+
+    header {
+        height: 21px;
+    }
+
+    .header-logo {
+        height: 14px;
+        padding: 3px 0 0 12px;
+        width: 41px;
+    }
+
+    nav ul {
+        padding-right: 17px;
+    }
+
+    nav li {
+        font-size: 4px;
+        padding: 0 0 0 11px;
+    }
+
+    /* Homepage */
+
+    .homepage-logo {
+        height: 55px;
+        padding: 0 0 10px 0;
+        width: 55px;
+    }
+
+    .homepage-photo {
+        margin-top: -9%;
+    }
+    
+    .homepage-photo img {
+        height: 212px;
+        width: 333px;
+    }
+
+    .homepage-text-wrapper {
+        font-size: 4.8px;
+        top: 6px;
+        left: 111px;
+    }
+    
+    .homepage-choices-headings {
+        padding: 17px 0 25px 0;
+    }
+    
+    .homepage-h2-heading {
+        font-size: 9.5px;
+    }
+    
+    .homepage-choices {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+
+    .choice {
+        height: 113px;
+        margin: 0 7px 28px 7px;
+    }
+    
+    .choice img {
+        height: 32px;
+        padding: 14px 0 0 0;
+        width: 32px;
+    }
+    
+    .choice-heading {
+        font-size: 6.7px;
+        margin: 8px 0 4px 0;
+    }
+    
+    .choice-text {
+        font: 4.2px/6px 'avenirnext-bold';
+        letter-spacing: 0;
+    }
+
+    .homepage-button-container {
+        padding: 0 0 23px 0;
+    }
+    
+    .button {
+        border-radius: 2px;
+        font-size: 6.7px;
+        height: 20px;
+        width: 88px;
+    }
+    
+    .homepage-cafe-programme {
+        padding: 16px 0 13px 0;
+    }
+    
+    .programme-heading-wrapper {
+        left: 35px;
+    }
+    
+    .programme-heading-icon {
+        height: 29px;
+        width: 29px;
+    }
+    
+    .programme-heading {
+        font-size: 6.7px;
+        left: 12px;
+        top: 10px;
+    }
+
+    .programme-container {
+        font: 6.7px/9px 'avenirnext-medium';
+        padding: 20px 10px 0 10px;
+    }
+
+    .programme-text-wrapper1 {
+        padding: 0;
+    }
+    
+    .programme-text-wrapper2 {
+        padding-right: 0;
+    }
+    
+    .programme-text {
+        padding: 0 0 12px 0;
+    }
+
+    .strong-text {
+        text-shadow: none;
+    }
+    
+    .homepage-events-text {
+        font-size: 6.8px;
+        letter-spacing: 0;
+    }
+    
+    .homepage-contact-text {
+        font: 8.5px/12px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 14px 0 19px 0;
+    }
+
+    /* About page */
+
+    .about-logo {
+        height: 55px;
+        padding-top: 5px;
+        width: 55px;
+    }
+
+    .about-section {
+        padding: 0 5px 14px 8px;
+    }
+
+    .about-container1 {
+        padding-top: 17px;
+    }
+
+    .about-container1-heading {
+        font: normal 11px/15.6px 'avenirnext-medium';
+        margin-left: -5px;
+    }
+
+    .about-container1-text {
+        font: 6.5px/8px 'avenirnext-medium';
+        letter-spacing: 0;
+        margin-left: -5px;
+    }
+
+    .about-container1-img {
+        height: 206px;
+        width: 140px;
+    }
+
+    .about-container2 {
+        padding: 11px 0 0 0;
+    }
+
+    .about-container2-heading {
+        font: 11px/15.6px 'avenirnext-medium';
+        padding: 0 0 4px 0;
+    }
+
+    .about-container2-text {
+        font: 6.5px/8px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 5px 0 0 0;
+    }
+
+    .about-container2-img {
+        height: 170px;
+        padding: 20px 0 27px 0;
+        width: 147px;
+    }
+
+    /* Contact page */
+
+    .contact-logo {
+        height: 55px;
+        padding: 5px 0 4px 0;
+        width: 55px;
+    }
+    
+    .contact-heading {
+        font-size: 11px;
+    }
+    
+    .contact-address {
+        font: 6.7px/10.2px 'avenirnext-medium';
+        padding: 11px 40px 0 81px;   
+    }
+    
+    .contact-map {
+        height: 166px;
+        padding: 26px 0 16px 81px;
+        width: 223px;
+    }
+
+    /* Footer */
+    
+    .footer-logo {
+        height: 20px;
+        padding: 9px 0 9px 12px;
+        width: 13px;
+    }
+    
+    .footer-text {
+        font-size: 4.2px;
+        letter-spacing: 0;
+        padding-bottom: 7px;
+        left: 52px;
+        bottom: 2px;
+    }
+    
+    .socialmedia-icons-wrapper {
+        top: 9px;
+        left: -92px;
+    }
+    
+    .socialmedia-icon {
+        height: 7.5px;
+        padding: 8px 0 9px 7px;
+        width: 7.5px;
+    }
+}
+
+@media screen and (max-width: 768px) and (min-width: 576px) {
+    body{
+        width: 501px;
+    }
+
+    /* Header */
+
+    header{
+        height: 31px;
+    }
+
+    .header-logo {
+        height: 21px;
+        padding: 4px 0 0 19px;
+        width: 58px;
+    }
+
+    nav ul {
+        padding-right: 28px;
+    }
+
+    nav li {
+        font-size: 6px;
+        padding: 0 0 0 10px;
+    }
+
+    /* Homepagepage */
+
+    .homepage-logo {
+        height: 78px;
+        padding: 0 0 12px 0;
+        width: 78px;
+    }
+
+    .homepage-photo {
+        margin-top: -9%;
+    }
+    
+    .homepage-photo img {
+        height: 260px;
+        width: 432px;
+    }
+    
+    .homepage-text-wrapper {
+        font-size: 7px;
+        top: 12px;
+        left: 128px;
+    }
+
+    .homepage-choices-headings {
+        padding: 32px 0 37px 0;
+    }
+    
+    .homepage-h2-heading {
+        font-size: 14.3px;
+        letter-spacing: 0.2px;
+    }
+    
+    .homepage-choices {
+        padding-left: 13px;
+        padding-right: 13px;
+    }
+    
+    .choice {
+        height: 150px;
+        margin: 0 10px 40px 10px;
+    }
+    
+    .choice img {
+        height: 45px;
+        padding: 17px 0 0 0;
+        width: 45px;
+    }
+    
+    .choice-heading {
+        font-size: 9.7px;
+        margin: 8px 0 4px 0;
+    }
+    
+    .choice-text {
+        font: 5.5px/8px 'avenirnext-bold';
+        font-size: 5.5px;
+        line-height: 8px;
+    }
+    
+    .homepage-button-container {
+        padding: 0 0 29px 0;
+    }
+    
+    .button {
+        border-radius: 4px;
+        font-size: 9px;
+        height: 28px;
+        width: 121px;
+    }
+    
+    .homepage-cafe-programme {
+        padding: 30px 0 17px 0;
+    }
+    
+    .programme-heading-wrapper {
+        left: 40px;
+    }
+    
+    .programme-heading-icon {
+        height: 47px;
+        width: 47px;
+    }
+    
+    .programme-heading {
+        font-size: 9.6px;
+        left: 15px;
+        top: 15px;
+    }
+
+    .programme-container {
+        font: 9.6px/12px 'avenirnext-medium';
+        padding: 25px 0 0 0;
+    }
+
+    .programme-text-wrapper1 {
+        padding-left: 10px;
+    }
+    
+    .programme-text-wrapper2 {
+        padding-right: 10px;
+    }
+    
+    .programme-text {
+        padding: 0 0 14px 0;
+    }
+
+    .strong-text {
+        text-shadow: none;
+    }
+    
+    .homepage-events-text {
+        font-size: 10.6px;
+        letter-spacing: 0;
+    }
+    
+    .homepage-contact-text {
+        font: 12px/18px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 7px 0 21px 0;
+    }
+
+    /* About page */
+
+    .about-logo {
+        height: 78px;
+        padding: 7px 0 0 0;
+        width: 78px;
+    }
+
+    .about-section {
+        padding: 0 5px 20px 11px;
+    }
+
+    .about-container1 {
+        padding-top: 17px;
+    }
+
+    .about-container1-heading {
+        font: 14px/21px 'avenirnext-medium';
+        margin-left: -5px;
+    }
+
+    .about-container1-text {
+        font: 9px/12px 'avenirnext-medium';
+        letter-spacing: 0;
+        margin-left: -5px;
+    }
+
+    .about-container1-img {
+        height: 266px;
+        padding-left: 0px;
+        width: 183px;
+    }
+
+    .about-container2 {
+        padding: 16px 0 0 0;
+    }
+
+    .about-container2-heading {
+        font: 14px/21px 'avenirnext-medium';
+        padding: 0 0 4px 15px;
+    }
+
+    .about-container2-text {
+        font: 8.6px/11.2px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 5px 0 0 15px;
+    }
+
+    .about-container2-img {
+        height: 222px;
+        padding-left: 5px;
+        width: 200px;
+    }
+
+    /* Contact page */
+
+    .contact-logo {
+        height: 78px;
+        width: 78px;
+    }
+    
+    .contact-heading {
+        font-size: 15px;
+    }
+    
+    .contact-address {
+        font: 10px/15px 'avenirnext-medium';
+        padding: 20px 40px 0 89px;   
+    }
+    
+    .contact-map {
+        height: 243px;
+        padding: 40px 0 23px 89px;
+        width: 324px;
+    }
+
+    /* Footer */
+    
+    .footer-logo {
+        height: 26px;
+        padding: 11px 0 9px 17px;
+        width: 18px;
+    }
+    
+    .footer-text {
+        font-size: 6px;
+        letter-spacing: 0;
+        left: 70px;
+        bottom: 3px;
+    }
+    
+    .socialmedia-icons-wrapper {
+        top: 10px;
+        left: -122px;
+    }
+    
+    .socialmedia-icon {
+        height: 11.2px;
+        padding: 10px 0 9px 10px;
+        width: 10.9px;
+    }
+}
+
+@media screen and (max-width: 992px) and (min-width: 768px) {
+    body{
+        width: 690px;
+    }
+
+    /* Header */
+
+    header{
+        height: 38px;
+    }
+
+    .header-logo {
+        height: 27px;
+        padding: 8px 0 2px 21px;
+        width: 75px;
+    }
+
+    nav ul {
+        padding-right: 33px;
+    }
+
+    nav li {
+        font-size: 8px;
+        padding: 2px 0 0 17px;
+    }
+
+    /* Homepagepage */
+
+    .homepage-logo {
+        height: 102px;
+        padding: 0 0 8px 0;
+        width: 102px;
+    }
+
+    .homepage-photo {
+        margin-top: -9%;
+    }
+    
+    .homepage-photo img {
+        height: 409px;
+        width: 601px;
+    }
+    
+    .homepage-text-wrapper {
+        font-size: 9.5px;
+        top: 19px;
+        left: 190px;
+    }
+
+    .homepage-choices-headings {
+        padding: 39px 0 40px 0;
+    }
+    
+    .homepage-h2-heading {
+        font-size: 18.5px;
+    }
+    
+    .homepage-choices {
+        padding: 0 34px 0 34px;
+    }
+    
+    .choice {
+        height: 194px;
+        margin: 0 7px 40px 16px;
+    }
+    
+    .choice img {
+        height: 57px;
+        padding: 21px 0 0 0;
+        width: 57px;
+    }
+    
+    .choice-heading {
+        font-size: 11.5px;
+        margin: 13px 0 4px 0;
+    }
+    
+    .choice-text {
+        font: 7px/11px 'avenirnext-bold';
+    }
+    
+    .homepage-button-container {
+        padding: 2px 0 37px 0;
+    }
+    
+    .button {
+        border-radius: 4px;
+        font-size: 12px;
+        height: 36px;
+        width: 158px;
+    }
+    
+    .homepage-cafe-programme {
+        padding: 30px 0 25px 0;
+    }
+    
+    .programme-heading-wrapper {
+        left: 40px;
+    }
+    
+    .programme-heading-icon {
+        height: 48px;
+        width: 48px;
+    }
+    
+    .programme-heading {
+        font-size: 13.5px;
+        left: 15px;
+        top: 14px;
+    }
+
+    .programme-container {
+        font: 13px/17px 'avenirnext-medium';
+    }
+
+    .programme-text {
+        padding: 0 10px 10px 0;
+    }
+    
+    .homepage-events-text {
+        font-size: 13px;
+        letter-spacing: 0;
+    }
+    
+    .homepage-contact-text {
+        font: 14.5px/18px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 17px 0 30px 0;
+    }
+
+    /* About page */
+
+    .about-logo {
+        height: 102px;
+        padding-top: 7px;
+        width: 102px;
+    }
+
+    .about-section {
+        padding: 0 5px 38px 11px;
+    }
+
+    .about-container1 {
+        padding-top: 17px;
+    }
+
+    .about-container1-heading {
+        font: 20px/26px 'avenirnext-medium';
+        margin-left: -5px;
+    }
+
+    .about-container1-text {
+        font: 12px/17px 'avenirnext-medium';
+        letter-spacing: 0;
+        margin-left: -5px;
+    }
+
+    .about-container1-img {
+        height: 375px;
+        padding-left: 0;
+        width: 259px;
+    }
+
+    .about-container2 {
+        padding: 16px 0 0 0;
+    }
+
+    .about-container2-heading {
+        font: 19.6px/25.8px 'avenirnext-medium';
+        padding: 0 0 4px 15px;
+    }
+
+    .about-container2-text {
+        font: 11.6px/16.6px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 5px 0 0 15px;
+    }
+
+    .about-container2-img {
+        height: 302px;
+        padding: 28px 0 34px 5px;
+        width: 267px;
+    }
+
+    /* Contact page */
+
+    .contact-logo {
+        height: 102px;
+        width: 102px;
+    }
+    
+    .contact-heading {
+        font-size: 19px;
+    }
+    
+    .contact-address {
+        font: 12px/19px 'avenirnext-medium';
+        padding: 20px 40px 0 133px;
+    }
+    
+    .contact-map {
+        height: 310px;
+        padding: 40px 0 32px 133px;
+        width: 424px;
+    }
+
+    /* Footer */
+    
+    .footer-logo {
+        height: 34px;
+        padding: 13px 0 11px 25px;
+        width: 24px;
+    }
+    
+    .footer-text {
+        font-size: 7px;
+        left: 92px;
+        bottom: 3px;
+    }
+    
+    .socialmedia-icons-wrapper {
+        top: 10px;
+        left: -168px;
+    }
+    
+    .socialmedia-icon {
+        height: 13.7px;
+        padding-left: 13px;
+        width: 13.4px;
+    }
+}
+
+@media screen and (min-width: 1200px) {
+    body{
+        width: 1150px;
+        box-shadow: 0 3px 6.7px 3.5px #cfcfd2;
+    }
+    
+    /* Header */
+
+    .header-logo {
+        height: 45px;
+        padding: 10px 0 4.5px 31px;
+        width: 124px;
+    }
+    
+    nav ul {
+        padding-right: 50px;
+    }
+    
+    nav li {
+        font-size: 12px;
+        padding: 3px 10px 0 17px;
+    }
+
+    /* Homepage */
+    
+    .homepage-logo {
+        height: 165px;
+        padding: 0 0 8px 0;
+        width: 165px;
+    }
+    
+    .homepage-photo {
+        margin-top: -7.6%;
+    }
+        
+    .homepage-photo img {
+        height: 636px;
+        width: 996px;
+    }
+        
+    .homepage-text-wrapper {
+        font-size: 15.5px;
+        top: 40px;
+        left: 330px;
+        text-shadow: 0 4px 6px #626060;
+    }
+    
+    .homepage-choices-headings {
+        padding: 62px 0 63px 0;
+    }
+        
+    .homepage-h2-heading {
+        font-size: 31px;
+        letter-spacing: 0.5px;
+        line-height: 40px;
+    }
+        
+    .homepage-choices {
+        padding-left: 68px;
+        padding-right: 44px;
+    }
+        
+    .choice {
+        height: 333px;
+        margin: 0 27px 73px 10px;
+        width: 396px;
+    }
+        
+    .choice img {
+        height: 98px;
+        padding: 40px 0 0 0;
+        width: 98px;
+    }
+        
+    .choice-heading {
+        font-size: 19px;
+        margin: 20px 0px 10px 0;
+    }
+        
+    .choice-text {
+        font: 12.2px/17.5px 'avenirnext-bold';
+    }
+        
+    .homepage-button-container {
+        padding: 0 0 75px 0;
+    }
+        
+    .button {
+        font-size: 21px;
+        height: 61px;
+        width: 266px;
+    }
+        
+    .homepage-cafe-programme {
+        padding: 55px 0 43px 0;
+    }
+        
+    .programme-heading-wrapper {
+        left: 113px;
+        padding-bottom: 3px;
+    }
+        
+    .programme-heading-icon {
+        height: 86px;
+        width: 86px;
+    }
+        
+    .programme-heading {
+        font-size: 20.3px;
+        left: 31px;
+        top: 26px;
+        letter-spacing: 0.3px;
+    }
+
+    .programme-container {
+        font: 20.3px/28px 'avenirnext-medium';
+        letter-spacing: 0.3px;
+    }
+
+    .programme-text {
+        padding: 10px 0 23px 0;
+    }
+
+    .strong-text {
+        text-shadow: 0.4px 0.9px 0.2px #5c5b5b;
+    }
+        
+    .homepage-events-text {
+        font-size: 20.3px;
+        letter-spacing: 0.25px;
+    }
+        
+    .homepage-contact-text {
+        font: 25.5px/35px 'avenirnext-medium';
+        letter-spacing: 0;
+        padding: 46px 0 60px 0;
+    }
+
+    /* About page */
+
+    .about-logo {
+        height: 165px;
+        padding: 15px 0 2px 0;
+        width: 165px;
+    }
+
+    .about-section {
+        padding-bottom: 73px;
+    }
+        
+    .about-container1-heading {
+        font: 31px/45px 'avenirnext-medium';
+        letter-spacing: 0.4px;
+    }
+        
+    .about-container1-text {
+        font: 18px/26.5px 'avenirnext-medium';
+    }
+        
+    .about-container1-img {
+        height: 604px;
+        width: 403px;
+    }
+        
+    .about-container2-heading {
+        font: 31px/44.5px 'avenirnext-medium';
+    }
+        
+    .about-container2-text {
+        font: 18px/26.57px 'avenirnext-medium';
+        padding: 12px 0 22px 5px;
+    }
+        
+    .about-container2-img {
+        height: 491px;
+        padding: 27px 0 0 0;
+        width: 427px;
+    }
+
+    /* Contact page */
+
+    .contact-logo {
+        height: 166px;
+        padding: 13px 0 10px 0;
+        width: 165px;
+    }
+
+    .contact-heading {
+        font-size: 32px;
+    }
+
+    .contact-address {
+        font: 19.5px/30px 'avenirnext-medium';
+        padding: 31px 40px 0 242px;
+    }
+
+    .contact-map {
+        height: 486px;
+        padding: 66px 0 50.5px 242px;
+        width: 648px;
+    }
+
+    /* Footer */
+            
+    .footer-logo {
+        height: 63px;
+        padding: 27px 0 25px 39px;
+        width: 43px;
+    }
+            
+    .footer-text {
+        font-size: 12.5px;
+        left: 149px;
+        bottom: 10px;
+    }
+            
+    .socialmedia-icons-wrapper {
+        top: 16px;
+        left: -286px;
+    }
+            
+    .socialmedia-icon {
+        height: 22.5px;
+        padding-left: 28px;
+        width: 22.4px;
+    }
+}
+
